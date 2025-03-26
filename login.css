@@ -1,0 +1,147 @@
+body {
+    font-family: 'DIN Next';
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+   
+  }
+.navbar{
+    display: flex;
+    justify-content:space-around;
+}
+.container-login{
+    margin: 0 auto;
+    height:350px;
+    width:30%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.grid1 li a {
+    padding: 10px;
+    color: #333;
+}
+.grid1 li{
+    list-style-type: none;
+    
+
+}
+
+input{
+    padding:15px;
+    width:250px;
+  }
+
+.forms{
+    display: flex;
+    flex-direction: column;
+}
+div.forms1{
+    padding: 15px;
+}
+
+.btn-button{
+    padding: 10px 20px;
+    background: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+footer {
+    color:#333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+
+.fa-instagram {
+    font-size: 24px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (max-width: 768px) {
+
+
+    body {
+        font-family: 'DIN Next';
+        line-height: 1.6;
+        background-color: #f4f4f4;
+        color: #333;
+       
+      }
+    .navbar{
+        display: flex;
+        justify-content:space-around;
+    }
+    .container-login{
+        margin: 0 auto;
+        height:350px;
+        width:30%;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .grid1{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .grid1 li a {
+        padding: 10px;
+        color: #333;
+    }
+    .grid1 li{
+        list-style-type: none;
+        
+    
+    }
+    
+    input{
+        padding:15px;
+        width:250px;
+      }
+    
+    .forms{
+        display: flex;
+        flex-direction: column;
+    }
+    div.forms1{
+        padding: 15px;
+    }
+    
+    .btn-button{
+        padding: 10px 20px;
+        background: #ff6600;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+    
+    footer {
+        color:#333;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 80px;
+    }
+    
+    .fa-instagram {
+        font-size: 24px;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+}
