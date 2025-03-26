@@ -15,7 +15,7 @@ body {
     flex-direction:row;
     margin: 0 auto;
     height:600px;
-    width:70%;
+    max-width:60%;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,7 @@ body {
    background-size: cover; /* ou contain, dependendo do efeito desejado */
    background-position: center; /* Centraliza a imagem no container */
    background-image: url('https://www.graciemag.com/wp-content/uploads/2015/06/IMG_6398-512x768.jpg');
-    border-radius: 10px 0px 0px 10px;
+   border-radius: 10px 0px 0px 10px;
   }
   
   .cadastro{
